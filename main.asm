@@ -1,3 +1,11 @@
+# Programa que lê uma sequência de números inteiros positivos e faz a ordenação de forma crescente usando o algoritmo de Quicksort.
+# A entrada termina quando o usuário digita 0.
+# 
+# Entrada:
+#	Números inteiros positivos.
+#
+# Saída:
+#	Array ordenado dos números inseridos de forma crescente.
 .data
 prompt_input:   .asciiz "Digite um número inteiro positivo (0 para terminar): " # String de entrada mostrada ao usuário
 newline:        .asciiz "\n"                                                    # String de nova linha para quebra de linha
