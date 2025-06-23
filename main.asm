@@ -5,7 +5,7 @@
 #	Números inteiros positivos.
 #
 # Saída:
-#	Array ordenado dos números inseridos de forma crescente.
+#	String de array ordenado dos números inseridos de forma crescente.
 .data
 prompt_input:   .asciiz "Digite um número inteiro positivo (0 para terminar): " # String de entrada mostrada ao usuário
 newline:        .asciiz "\n"                                                    # String de nova linha para quebra de linha
